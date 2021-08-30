@@ -1,0 +1,56 @@
+header,
+  form {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form input,
+  form button {
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: white;
+  }
+
+  form button {
+    color: rgb(0, 0, 0);
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: -32px;
+  }
+  form button:hover {
+    color: green;
+  }
+  select{
+    color: black;
+    background-color: green;
+    color: #f7fffe;
+    margin-left: 20px;
+    font-size: 1rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+  }
+  option{
+    color: black;
+  }
+  .optionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  
+  @media (max-width: 576px){
+    header,
+    form {
+      flex-direction: column;
+    }
+  }
+ 
